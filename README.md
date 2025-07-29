@@ -5,7 +5,10 @@ A real-time chat application built with **React**, **Node.js**, **Express**, and
 ---
 
  Features
-
+ 
+-✅ Welcome email on registration
+- 🔐 Password reset email
+- 🛎️ Notification emails (optional)
 - ✅ Real-time messaging using Socket.io
 - 👀 Message seen/delivered status
 - ✍️ Typing indicators
@@ -32,17 +35,14 @@ A real-time chat application built with **React**, **Node.js**, **Express**, and
 - Socket.io
 - JSON Web Tokens (JWT)
 - bcryptjs
+- nodemailer
 
 ---
 
  ## Future Improvements
+-chats
 -Group chat support
-
--File sharing (images/videos)
-
--Notifications
-
 -Message delete/edit
-
 -Chat themes
+-email
 
