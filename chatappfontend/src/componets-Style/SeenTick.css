@@ -1,0 +1,11 @@
+.blue-tick {
+  color: #4fc3f7; /* blue color */
+  font-size: 16px;
+  vertical-align: middle;
+}
+
+.gray-tick {
+  color: #999999; /* gray color */
+  font-size: 16px;
+  vertical-align: middle;
+}

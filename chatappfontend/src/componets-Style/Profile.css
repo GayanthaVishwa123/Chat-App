@@ -1,0 +1,113 @@
+/* WhatsApp-Inspired Profile Design */
+
+.profile-root-overlay {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.35);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.profile-root-card {
+  background-color: #fff; /* light background */
+  color: #000; /* black text */
+  width: 95%;
+  max-width: 360px;
+  border-radius: 12px;
+  padding: 1.8rem 1.5rem;
+  position: relative;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  border: 1px solid #ddd;
+  transform: translateY(20px);
+  animation: slideUp 0.3s ease forwards;
+}
+
+.profile-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.profile-header h2 {
+  font-size: 1.3rem;
+  margin: 0;
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  font-size: 1.3rem;
+  cursor: pointer;
+  color: #666;
+}
+
+.profile-content {
+  text-align: center;
+}
+
+.profile-image-lg {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+  border: 3px solid #25d366; /* WhatsApp green */
+}
+
+.profile-content h3 {
+  font-size: 1.25rem;
+  margin: 0.5rem 0 0.25rem;
+}
+
+.profile-status {
+  font-size: 0.9rem;
+  color: #777;
+  margin-bottom: 1.5rem;
+}
+
+.profile-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+}
+
+.profile-buttons button {
+  font-size: 1rem;
+  padding: 0.6rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f0f0f0;
+  color: #000;
+  text-align: left;
+  padding-left: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.profile-buttons button:hover {
+  background-color: #e6f4ea;
+}
+
+.profile-buttons .logout {
+  color: #ef4444;
+  border-color: #ef4444;
+  background-color: transparent;
+}
+
+.profile-buttons .logout:hover {
+  background-color: rgba(239, 68, 68, 0.1);
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

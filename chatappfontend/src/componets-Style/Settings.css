@@ -1,0 +1,33 @@
+/* Light mode styles */
+.settings-list {
+  padding: 20px;
+  font-size: 16px;
+  color: #333;
+  line-height: 1.6;
+  background-color: #fff;
+}
+
+.settings-list p {
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.settings-list p:hover {
+  background-color: #f0f0f0;
+}
+
+/* Dark mode styles */
+.dark .settings-list {
+  color: #ddd;
+  background-color: #1e2a33;
+}
+
+.dark .settings-list p {
+  border-bottom: 1px solid #444;
+}
+
+.dark .settings-list p:hover {
+  background-color: #2a3b44;
+}

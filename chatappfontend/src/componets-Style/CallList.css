@@ -1,0 +1,68 @@
+.call_list {
+  overflow-y: auto;
+  height: calc(100vh - 80px);
+  background-color: #f5f5f5;
+  padding: 10px;
+}
+
+.call_list-item {
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  border-radius: 10px;
+  background-color: white;
+  margin-bottom: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  cursor: default;
+}
+
+.call-entry {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.chat-avatar {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  margin-right: 15px;
+  object-fit: cover;
+}
+
+.call-text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.call-header {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.call-type {
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.call-type.missed {
+  background-color: #ff4d4d;
+  color: white;
+}
+
+.call-type.incoming {
+  background-color: #25d366;
+  color: white;
+}
+
+.call-time {
+  font-size: 14px;
+  color: #888;
+  margin-top: 4px;
+}

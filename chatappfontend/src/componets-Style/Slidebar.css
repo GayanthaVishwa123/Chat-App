@@ -1,0 +1,63 @@
+.sidebar-icons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 80px;
+  height: 100vh;
+  background-color: #075e54;
+  padding: 20px 0;
+  box-sizing: border-box;
+}
+
+.icons-top {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+}
+
+.icons-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+
+.icon {
+  font-size: 28px;
+  color: #bdbdbd;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.icon:hover,
+.icon.active {
+  color: #25d366;
+}
+
+.profile-pic {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: border-color 0.3s ease;
+}
+
+.profile-pic:hover {
+  border-color: #25d366;
+}
+
+.dark-toggle {
+  background: none;
+  border: none;
+  color: #bdbdbd;
+  font-size: 24px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.dark-toggle:hover {
+  color: #25d366;
+}
