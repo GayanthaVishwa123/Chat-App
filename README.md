@@ -11,11 +11,9 @@ A real-time chat application built with **React**, **Node.js**, **Express**, and
 - 🛎️ Notification emails (optional)
 - ✅ Real-time messaging using Socket.io
 - 👀 Message seen/delivered status
-- ✍️ Typing indicators
 - 👥 One-on-one chat system
 - 🔐 JWT-based authentication
 - 📦 RESTful API for user & chat management
-- 📱 Responsive UI (Mobile + Desktop)
 - 🌙 Light/Dark Mode (Optional)
 
 ---
@@ -24,7 +22,7 @@ A real-time chat application built with **React**, **Node.js**, **Express**, and
 
 ### Frontend
 - React.js
-- Tailwind CSS / Custom CSS
+- Tailwind CSS 
 - Axios
 - Socket.io-client
 
